@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "id_user": 101,
+    "nama_gelar": "Dr. John Doe, M.Sc",
+    "nama": "John Doe",
+    "gelar_depan": "Dr.",
+    "gelar_belakang": "M.Sc",
+    "tempat_lahir": "Jakarta",
+    "tanggal_lahir": "1980-05-15",
+    "jenis": 1,
+    "nip_lama": "123456789",
+    "nip": "987654321",
+    "noe_karpeg": "12345",
+    "no_karpeg": "54321",
+    "no_ktp": "3201234567890001",
+    "agama": 1,
+    "jenis_kelamin": 1,
+    "status_nikah": 2,
+    "alamat": "Jl. Sudirman No. 1, Jakarta",
+    "no_hp": "08123456789",
+    "email": "johndoe@example.com",
+    "sim_account": "john_doe",
+    "no_telp_rumah": "0211234567",
+    "pengubah": "admin",
+    "app_pengubah": "HR System",
+    "tanggal_ubah": "2025-02-25",
+    "foto": "https://example.com/photos/johndoe.jpg",
+    "npwp": "09.123.456.7-890.000",
+    "keterangan": "Karyawan tetap",
+    "is_dosen": 1,
+    "id_sister": 303,
+    "createdAt": "2023-01-01",
+    "updatedAt": "2025-02-25",
+    "ref_jenis_pegawai": { "nama": "Dosen Tetap" },
+    "ref_agama": { "nama": "Islam" },
+    "ref_jenis_kelamin": { "kode": "L" },
+    "ref_status_nikah": { "nama": "Menikah" },
+    "riwayat_jabatan_fungsional": [
+      {
+        "id_data_pegawai": 1,
+        "id_ref_jabatan_fungsional": 201,
+        "ref_jabatan_fungsional": { "nama": "Lektor Kepala" }
+      }
+    ],
+    "riwayat_mutasi_struktural": [
+      {
+        "id_data_pegawai": 1,
+        "id_ref_jabatan_struktural": 301,
+        "ref_jabatan_struktural": { "nama": "Kepala Departemen" }
+      }
+    ],
+    "riwayat_golongan": [
+      {
+        "id_data_pegawai": 1,
+        "id_ref_pangkat_golongan": 401,
+        "ref_pangkat_golongan": { "kode": "IV/a", "nama": "Pembina" }
+      }
+    ],
+    "riwayat_pendidikan": [
+      {
+        "id_data_pegawai": 1,
+        "pendidikan": 3,
+        "jenjang_keterangan": "S3",
+        "nama_sekolah": "Universitas Indonesia",
+        "jurusan": "Teknik Informatika",
+        "negara": 1,
+        "ref_pendidikan": { "nama": "Doktor" }
+      }
+    ],
+    "riwayat_status_pegawai": [
+      {
+        "id_data_pegawai": 1,
+        "id_ref_status_pegawai": 501,
+        "ref_status_pegawai": { "nama": "Pegawai Negeri Sipil" }
+      }
+    ],
+    "riwayat_jabatan_struktural": [
+      {
+        "id_data_pegawai": 1,
+        "nama_jabatan": "Dekan Fakultas"
+      }
+    ],
+    "riwayat_unit_kerja": [
+      {
+        "id_data_pegawai": 1,
+        "id_ref_unit_kerja": 601,
+        "ref_unit_kerja": { "nama": "Fakultas Teknik" }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "id_user": 102,
+    "nama_gelar": "Prof. Jane Smith, Ph.D",
+    "nama": "Jane Smith",
+    "gelar_depan": "Prof.",
+    "gelar_belakang": "Ph.D",
+    "tempat_lahir": "Bandung",
+    "tanggal_lahir": "1975-08-20",
+    "jenis": 2,
+    "nip_lama": "223344556",
+    "nip": "667788990",
+    "noe_karpeg": "67890",
+    "no_karpeg": "09876",
+    "no_ktp": "3201234567890002",
+    "agama": 2,
+    "jenis_kelamin": 2,
+    "status_nikah": 1,
+    "alamat": "Jl. Merdeka No. 10, Bandung",
+    "no_hp": "082233445566",
+    "email": "janesmith@example.com",
+    "sim_account": "jane_smith",
+    "no_telp_rumah": "0229876543",
+    "pengubah": "admin",
+    "app_pengubah": "HR System",
+    "tanggal_ubah": "2025-02-26",
+    "foto": "https://example.com/photos/janesmith.jpg",
+    "npwp": "08.765.432.1-123.000",
+    "keterangan": "Karyawan kontrak",
+    "is_dosen": 0,
+    "id_sister": 304,
+    "createdAt": "2023-02-01",
+    "updatedAt": "2025-02-26",
+    "ref_jenis_pegawai": { "nama": "Tenaga Kependidikan" },
+    "ref_agama": { "nama": "Kristen" },
+    "ref_jenis_kelamin": { "kode": "P" },
+    "ref_status_nikah": { "nama": "Belum Menikah" },
+    "riwayat_jabatan_fungsional": [
+      {
+        "id_data_pegawai": 2,
+        "id_ref_jabatan_fungsional": 202,
+        "ref_jabatan_fungsional": { "nama": "Asisten Ahli" }
+      }
+    ],
+    "riwayat_mutasi_struktural": [
+      {
+        "id_data_pegawai": 2,
+        "id_ref_jabatan_struktural": 302,
+        "ref_jabatan_struktural": { "nama": "Koordinator Program" }
+      }
+    ],
+    "riwayat_golongan": [
+      {
+        "id_data_pegawai": 2,
+        "id_ref_pangkat_golongan": 402,
+        "ref_pangkat_golongan": { "kode": "III/b", "nama": "Penata Muda" }
+      }
+    ],
+    "riwayat_pendidikan": [
+      {
+        "id_data_pegawai": 2,
+        "pendidikan": 2,
+        "jenjang_keterangan": "S2",
+        "nama_sekolah": "Institut Teknologi Bandung",
+        "jurusan": "Manajemen Bisnis",
+        "negara": 1,
+        "ref_pendidikan": { "nama": "Magister" }
+      }
+    ],
+    "riwayat_status_pegawai": [
+      {
+        "id_data_pegawai": 2,
+        "id_ref_status_pegawai": 502,
+        "ref_status_pegawai": { "nama": "Kontrak" }
+      }
+    ],
+    "riwayat_jabatan_struktural": [
+      {
+        "id_data_pegawai": 2,
+        "nama_jabatan": "Koordinator Akademik"
+      }
+    ],
+    "riwayat_unit_kerja": [
+      {
+        "id_data_pegawai": 2,
+        "id_ref_unit_kerja": 602,
+        "ref_unit_kerja": { "nama": "Fakultas Ekonomi" }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "id_user": 103,
+    "nama_gelar": "Prof. Jane Smith, Ph.D",
+    "nama": "Jane Smith",
+    "gelar_depan": "Prof.",
+    "gelar_belakang": "Ph.D",
+    "tempat_lahir": "Surabaya",
+    "tanggal_lahir": "1975-09-21",
+    "jenis": 2,
+    "nip_lama": "321654987",
+    "nip": "789456123",
+    "noe_karpeg": "67890",
+    "no_karpeg": "09876",
+    "no_ktp": "3209876543210003",
+    "agama": 2,
+    "jenis_kelamin": 2,
+    "status_nikah": 1,
+    "alamat": "Jl. Diponegoro No. 3, Surabaya",
+    "no_hp": "08234567890",
+    "email": "janesmith@example.com",
+    "sim_account": "jane_smith",
+    "no_telp_rumah": "0319876543",
+    "pengubah": "admin",
+    "app_pengubah": "HR System",
+    "tanggal_ubah": "2025-02-26",
+    "foto": "https://example.com/photos/janesmith.jpg",
+    "npwp": "09.876.543.2-321.000",
+    "keterangan": "Dosen tetap",
+    "is_dosen": 1,
+    "id_sister": 305,
+    "createdAt": "2023-03-01",
+    "updatedAt": "2025-02-26",
+    "ref_jenis_pegawai": { "nama": "Dosen Tetap" },
+    "ref_agama": { "nama": "Kristen" },
+    "ref_jenis_kelamin": { "kode": "P" },
+    "ref_status_nikah": { "nama": "Belum Menikah" },
+    "riwayat_jabatan_fungsional": [
+      {
+        "id_data_pegawai": 3,
+        "id_ref_jabatan_fungsional": 203,
+        "ref_jabatan_fungsional": { "nama": "Guru Besar" }
+      }
+    ],
+    "riwayat_mutasi_struktural": [
+      {
+        "id_data_pegawai": 3,
+        "id_ref_jabatan_struktural": 303,
+        "ref_jabatan_struktural": { "nama": "Ketua Program Studi" }
+      }
+    ],
+    "riwayat_golongan": [
+      {
+        "id_data_pegawai": 3,
+        "id_ref_pangkat_golongan": 403,
+        "ref_pangkat_golongan": { "kode": "IV/b", "nama": "Pembina Tingkat I" }
+      }
+    ],
+    "riwayat_pendidikan": [
+      {
+        "id_data_pegawai": 3,
+        "pendidikan": 4,
+        "jenjang_keterangan": "S3",
+        "nama_sekolah": "Institut Teknologi Bandung",
+        "jurusan": "Fisika",
+        "negara": 1,
+        "ref_pendidikan": { "nama": "Doktor" }
+      }
+    ],
+    "riwayat_status_pegawai": [
+      {
+        "id_data_pegawai": 3,
+        "id_ref_status_pegawai": 503,
+        "ref_status_pegawai": { "nama": "Pegawai Negeri Sipil" }
+      }
+    ],
+    "riwayat_jabatan_struktural": [
+      {
+        "id_data_pegawai": 3,
+        "nama_jabatan": "Wakil Dekan"
+      }
+    ],
+    "riwayat_unit_kerja": [
+      {
+        "id_data_pegawai": 3,
+        "id_ref_unit_kerja": 603,
+        "ref_unit_kerja": { "nama": "Fakultas Sains" }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "id_user": 104,
+    "nama_gelar": "Dr. Michael Johnson, M.T",
+    "nama": "Michael Johnson",
+    "gelar_depan": "Dr.",
+    "gelar_belakang": "M.T",
+    "tempat_lahir": "Bandung",
+    "tanggal_lahir": "1982-07-18",
+    "jenis": 1,
+    "nip_lama": "654789123",
+    "nip": "123789456",
+    "noe_karpeg": "56789",
+    "no_karpeg": "98765",
+    "no_ktp": "3204567891230004",
+    "agama": 1,
+    "jenis_kelamin": 1,
+    "status_nikah": 2,
+    "alamat": "Jl. Merdeka No. 4, Bandung",
+    "no_hp": "08345678901",
+    "email": "michaeljohnson@example.com",
+    "sim_account": "michael_johnson",
+    "no_telp_rumah": "0228765432",
+    "pengubah": "admin",
+    "app_pengubah": "HR System",
+    "tanggal_ubah": "2025-02-26",
+    "foto": "https://example.com/photos/michaeljohnson.jpg",
+    "npwp": "08.765.432.1-210.000",
+    "keterangan": "Dosen tetap",
+    "is_dosen": 1,
+    "id_sister": 306,
+    "createdAt": "2023-04-01",
+    "updatedAt": "2025-02-26",
+    "ref_jenis_pegawai": { "nama": "Dosen Tetap" },
+    "ref_agama": { "nama": "Islam" },
+    "ref_jenis_kelamin": { "kode": "L" },
+    "ref_status_nikah": { "nama": "Menikah" },
+    "riwayat_jabatan_fungsional": [
+      {
+        "id_data_pegawai": 4,
+        "id_ref_jabatan_fungsional": 204,
+        "ref_jabatan_fungsional": { "nama": "Lektor Kepala" }
+      }
+    ],
+    "riwayat_mutasi_struktural": [
+      {
+        "id_data_pegawai": 4,
+        "id_ref_jabatan_struktural": 304,
+        "ref_jabatan_struktural": { "nama": "Ketua Laboratorium" }
+      }
+    ],
+    "riwayat_golongan": [
+      {
+        "id_data_pegawai": 4,
+        "id_ref_pangkat_golongan": 404,
+        "ref_pangkat_golongan": { "kode": "III/d", "nama": "Penata Tingkat I" }
+      }
+    ],
+    "riwayat_pendidikan": [
+      {
+        "id_data_pegawai": 4,
+        "pendidikan": 3,
+        "jenjang_keterangan": "S2",
+        "nama_sekolah": "Universitas Gadjah Mada",
+        "jurusan": "Teknik Elektro",
+        "negara": 1,
+        "ref_pendidikan": { "nama": "Magister" }
+      }
+    ],
+    "riwayat_status_pegawai": [
+      {
+        "id_data_pegawai": 4,
+        "id_ref_status_pegawai": 504,
+        "ref_status_pegawai": { "nama": "Pegawai Negeri Sipil" }
+      }
+    ],
+    "riwayat_jabatan_struktural": [
+      {
+        "id_data_pegawai": 4,
+        "nama_jabatan": "Kepala Program Studi"
+      }
+    ],
+    "riwayat_unit_kerja": [
+      {
+        "id_data_pegawai": 4,
+        "id_ref_unit_kerja": 604,
+        "ref_unit_kerja": { "nama": "Fakultas Teknik" }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "id_user": 105,
+    "nama_gelar": "Ir. Siti Aminah, M.Sc",
+    "nama": "Siti Aminah",
+    "gelar_depan": "Ir.",
+    "gelar_belakang": "M.Sc",
+    "tempat_lahir": "Yogyakarta",
+    "tanggal_lahir": "1985-05-10",
+    "jenis": 2,
+    "nip_lama": "987654321",
+    "nip": "654321987",
+    "noe_karpeg": "34567",
+    "no_karpeg": "76543",
+    "no_ktp": "3209876543210005",
+    "agama": 2,
+    "jenis_kelamin": 2,
+    "status_nikah": 1,
+    "alamat": "Jl. Malioboro No. 5, Yogyakarta",
+    "no_hp": "08123456789",
+    "email": "sitiaminah@example.com",
+    "sim_account": "siti_aminah",
+    "no_telp_rumah": "0274567890",
+    "pengubah": "admin",
+    "app_pengubah": "HR System",
+    "tanggal_ubah": "2025-02-26",
+    "foto": "https://example.com/photos/sitiaminah.jpg",
+    "npwp": "07.654.321.1-098.000",
+    "keterangan": "Dosen tetap",
+    "is_dosen": 1,
+    "id_sister": 307,
+    "createdAt": "2023-05-01",
+    "updatedAt": "2025-02-26",
+    "ref_jenis_pegawai": { "nama": "Dosen Tetap" },
+    "ref_agama": { "nama": "Islam" },
+    "ref_jenis_kelamin": { "kode": "P" },
+    "ref_status_nikah": { "nama": "Belum Menikah" },
+    "riwayat_jabatan_fungsional": [
+      {
+        "id_data_pegawai": 5,
+        "id_ref_jabatan_fungsional": 205,
+        "ref_jabatan_fungsional": { "nama": "Lektor" }
+      }
+    ],
+    "riwayat_mutasi_struktural": [
+      {
+        "id_data_pegawai": 5,
+        "id_ref_jabatan_struktural": 305,
+        "ref_jabatan_struktural": { "nama": "Koordinator Program Studi" }
+      }
+    ],
+    "riwayat_golongan": [
+      {
+        "id_data_pegawai": 5,
+        "id_ref_pangkat_golongan": 405,
+        "ref_pangkat_golongan": { "kode": "III/c", "nama": "Penata" }
+      }
+    ],
+    "riwayat_pendidikan": [
+      {
+        "id_data_pegawai": 5,
+        "pendidikan": 3,
+        "jenjang_keterangan": "S2",
+        "nama_sekolah": "Institut Pertanian Bogor",
+        "jurusan": "Agribisnis",
+        "negara": 1,
+        "ref_pendidikan": { "nama": "Magister" }
+      }
+    ],
+    "riwayat_status_pegawai": [
+      {
+        "id_data_pegawai": 5,
+        "id_ref_status_pegawai": 505,
+        "ref_status_pegawai": { "nama": "Pegawai Negeri Sipil" }
+      }
+    ],
+    "riwayat_jabatan_struktural": [
+      {
+        "id_data_pegawai": 5,
+        "nama_jabatan": "Sekretaris Program Studi"
+      }
+    ],
+    "riwayat_unit_kerja": [
+      {
+        "id_data_pegawai": 5,
+        "id_ref_unit_kerja": 605,
+        "ref_unit_kerja": { "nama": "Fakultas Pertanian" }
+      }
+    ]
+  }
+]

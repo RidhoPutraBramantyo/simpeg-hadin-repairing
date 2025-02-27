@@ -1,0 +1,50 @@
+{
+  "id": 1,
+  "id_user": 101,
+  "nama_gelar": "Dr. John Doe, M.Sc.",
+  "nama": "John Doe",
+  "gelar_depan": "Dr.",
+  "gelar_belakang": "M.Sc.",
+  "tempat_lahir": "Jakarta",
+  "tanggal_lahir": "1985-06-15",
+  "jenis": 1,
+  "nip_lama": "123456789",
+  "nip": "198506152020121001",
+  "noe_karpeg": "987654321",
+  "no_karpeg": "654321987",
+  "no_ktp": "3201234567890001",
+  "agama": 1,
+  "jenis_kelamin": 1,
+  "status_nikah": 2,
+  "alamat": "Jl. Merdeka No. 10, Jakarta",
+  "no_hp": "081234567890",
+  "email": "johndoe@example.com",
+  "sim_account": "johndoe123",
+  "no_telp_rumah": "0219876543",
+  "pengubah": "admin",
+  "app_pengubah": "HR System",
+  "tanggal_ubah": "2025-02-25T10:00:00Z",
+  "foto": "https://example.com/images/johndoe.jpg",
+  "npwp": "12.345.678.9-012.345",
+  "keterangan": "Karyawan tetap",
+  "is_dosen": 0,
+  "id_sister": 2025101,
+  "createdAt": "2024-01-10T08:30:00Z",
+  "updatedAt": "2025-02-25T10:00:00Z",
+  "ref_jenis_pegawai": {
+    "nama": "Pegawai Negeri Sipil",
+    "kode": "PNS"
+  },
+  "ref_agama": {
+    "nama": "Islam",
+    "kode": "1"
+  },
+  "ref_jenis_kelamin": {
+    "nama": "Laki-laki",
+    "kode": "1"
+  },
+  "ref_status_nikah": {
+    "nama": "Menikah",
+    "kode": "2"
+  }
+}
