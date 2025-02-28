@@ -1,3 +1,5 @@
+///app-sidebar.tsx
+
 "use client";
 
 import * as React from "react";
@@ -9,7 +11,6 @@ import {
   House,
   UserRound,
 } from "lucide-react";
-
 import { NavMain } from "@/components/nav-main";
 import { NavProjects } from "@/components/nav-project";
 import { NavUser } from "@/components/nav-user";

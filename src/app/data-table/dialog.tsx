@@ -2,7 +2,7 @@
 
 import React from "react";
 import { HashLoader } from "react-spinners";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogContent,
@@ -13,16 +13,16 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Trash2 } from "lucide-react";
-import { Label } from "../ui/label";
-import { Input } from "../ui/input";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
 
 interface DeleteDialogProps {
-  isOpen: boolean;
+  isOpen?: boolean;
   loading?: boolean;
-  onClose: () => void;
-  onConfirm: () => void;
-  title: string;
-  description: string;
+  onClose?: () => void;
+  onConfirm?: () => void;
+  title?: string;
+  description?: string;
 }
 
 const DeleteDialogDashboard: React.FC<DeleteDialogProps> = ({

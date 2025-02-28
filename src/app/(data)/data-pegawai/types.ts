@@ -1,0 +1,43 @@
+export type RefData = {
+  nama?: string;
+  kode?: string;
+};
+
+export type EmployeeDetail = {
+  id: number;
+  id_user: number;
+  nama_gelar: string;
+  nama: string;
+  gelar_depan: string;
+  gelar_belakang: string;
+  tempat_lahir: string;
+  tanggal_lahir: string;
+  jenis: number;
+  nip_lama: string;
+  nip: string;
+  noe_karpeg: string;
+  no_karpeg: string;
+  no_ktp: string;
+  agama: number;
+  jenis_kelamin: number;
+  status_nikah: number;
+  alamat: string;
+  no_hp: string;
+  email: string;
+  sim_account: string;
+  no_telp_rumah: string;
+  pengubah: string;
+  app_pengubah: string;
+  tanggal_ubah: string;
+  foto: string;
+  npwp: string;
+  keterangan: string;
+  is_dosen: number;
+  id_sister: number;
+  createdAt: string;
+  updatedAt: string;
+  ref_jenis_pegawai: RefData;
+  ref_agama: RefData;
+  ref_jenis_kelamin: RefData;
+  ref_status_nikah: RefData;
+};
